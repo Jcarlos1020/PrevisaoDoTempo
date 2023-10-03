@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body {
+
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./img/pexels-engin-akyurt-1483590.jpg");
+    background-size: cover;
+}
+
+.caixa-principal {
+
+    background-color: black;
+    opacity: 0.5;
+    border-radius: 25px;
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+
+}
+
+
+input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 16px;
+    background-color: #7c7c7c2b;
+    color: white;
+    width: calc(100% - 60px);
+}
+
+input::placeholder{
+color: white;
+font-size: 15px;
+}
+
+button {
+
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+    float: right;
+}
+
+.img-busca {
+
+    width: 25px;
+}
+
+.caixa-2 {
+    margin-top: 30px;
+
+}
+
+
+.caixa-maior {
+
+    opacity: 0.7;
+    border-radius: 25px;
+    width: 90%;
+    max-width: 500px;
+}
+
+.caixa-4 {
+    background-color: black;
+    opacity: 0.7;
+    border-radius: 25px;
+    padding: 18px;
+    width: 50%;
+    max-width: 200px;
+
+}
+
+.caixa-5 {
+    display: flex;
+    margin-top: 15px;
+    width: 90%;
+    max-width: 500px;
+
+}
+
+.caixa-6 {
+
+
+    background-color: black;
+    opacity: 0.7;
+    border-radius: 25px;
+    padding: 18px;
+    width: 50%;
+    max-width: 200px;
+    margin-left: 50px;
+
+}
+
+.nuven {
+    margin-left: 35%;
+}
+
+
+.cidade {
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+
+.temperatura {
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+
+}
+
+
+.clima {
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+
+}
+
+
+.previsao {
+    color: white;
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+
+
+
+}
+
+.porcentagem {
+    color: white;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.vento {
+
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.informações-menores {
+    color: white;
+    display: flex;
+
+}
+
+.maxima {
+    margin-left: 145PX;
+    margin-top: auto;
+    font-size: 11px;
+    font-weight: 500;
+
+}
+
+.minima {
+
+    margin-top: auto;
+    margin-left: auto;
+    font-size: 11px;
+    font-weight: 500;
+
+}
